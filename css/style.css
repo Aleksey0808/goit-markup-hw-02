@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
 
 ul li {
     list-style: none;
@@ -89,8 +88,6 @@ body{
 }
 
 .footer-contacts {
-    color: var(--secondary-color);
-    line-height: 2;
 }
 
 /* index.html */
@@ -114,6 +111,7 @@ body{
     font-size: 16px;
     line-height: 2;
     background: var(--active-color);
+    cursor: pointer;
 }
 
 .benefits {}
@@ -180,6 +178,7 @@ body{
     line-height: 1.2;
     background: #F5F4FA;
     border: none;
+    cursor: pointer;
 }
 
 .button:hover,
