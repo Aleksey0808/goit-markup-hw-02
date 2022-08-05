@@ -84,7 +84,11 @@ body{
 .footer-address {
     color: #fff;
     line-height: 2;
+}
 
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--active-color);
 }
 
 .footer-contacts {
